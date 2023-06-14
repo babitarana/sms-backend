@@ -42,7 +42,7 @@ public class CourseApiController {
 		} else {
 			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 		}
-	}
+	} 
 
 	@PostMapping("/save")
 	public ResponseEntity<Course> createCourse(@RequestBody Course course) {
